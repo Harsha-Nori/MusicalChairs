@@ -145,6 +145,7 @@
 }
 
 - (void)pushToAzure:(NSDictionary *)request{
+    NSLog(@"REQUEST %@", request);
     [seatRequestsTable insert:request completion:^(NSDictionary *item, NSError *error) {
         if(error) {
             NSLog(@"ERROR %@", error);

@@ -177,6 +177,7 @@
     NSDictionary *apsPayload = notification[@"aps"];
     NSString *receiverID = apsPayload[@"receiver"];
     NSString *cat = apsPayload[@"category"];
+    NSLog(@"%@", cat);
     if([cat isEqualToString:@"PACKAGE_CATEGORY"]){
         NSString *packageID = apsPayload[@"package"];
         if([receiverID isEqualToString:@"4F979FC8-CC63-45E3-8E9F-2F7509833036"] == NO){
@@ -187,7 +188,7 @@
     }
     else{
         //NSString *senderID = apsPayload[@"sender"];
-        if([receiverID isEqualToString:@"4F979FC8-CC63-45E3-8E9F-2F7509833036"] == NO){
+        if([receiverID isEqualToString:@"158BC482-7FF5-48B2-9A9C-4CE216FDEB99"] == NO){
             NSLog(@"This is not the request you were looking for");
             return;
         }

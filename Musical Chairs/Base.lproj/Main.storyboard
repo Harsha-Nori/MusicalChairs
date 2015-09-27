@@ -42,14 +42,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="--" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3wc-Kk-WS0">
-                                                    <rect key="frame" x="15" y="12" width="20" height="27"/>
+                                                    <rect key="frame" x="15" y="8" width="20" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="--" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bfg-Ce-tu7">
-                                                    <rect key="frame" x="409" y="12" width="176" height="21"/>
+                                                    <rect key="frame" x="570" y="12" width="15" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                                     <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
@@ -66,14 +66,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nbn-eh-j8H">
-                                                    <rect key="frame" x="15" y="12" width="32" height="27"/>
+                                                    <rect key="frame" x="15" y="8" width="20" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="--" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tlo-KZ-vhg">
-                                                    <rect key="frame" x="413" y="12" width="172" height="22"/>
+                                                    <rect key="frame" x="568" y="12" width="17" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
@@ -356,11 +356,11 @@
             </objects>
             <point key="canvasLocation" x="2269" y="426"/>
         </scene>
-        <!--First-->
+        <!--Flight-->
         <scene sceneID="nk0-pm-H9S">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zDy-ag-1jN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Flight" image="Airport Filled-32.png" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WeF-hI-3bC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -375,11 +375,11 @@
             </objects>
             <point key="canvasLocation" x="750" y="-318"/>
         </scene>
-        <!--Item-->
+        <!--Packages-->
         <scene sceneID="OIq-Fd-wSN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="00y-Qe-W0C" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ggN-XH-KuN"/>
+                    <tabBarItem key="tabBarItem" title="Packages" image="Packaging Filled-32.png" id="ggN-XH-KuN"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5b2-QS-RGF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -414,6 +414,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
+        <image name="Airport Filled-32.png" width="32" height="32"/>
+        <image name="Packaging Filled-32.png" width="32" height="32"/>
     </resources>
 </document>

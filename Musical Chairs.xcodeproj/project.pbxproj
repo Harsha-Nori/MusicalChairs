@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A75EE0E1BB822D9002B819D /* Packaging Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75EE0D1BB822D9002B819D /* Packaging Filled-100.png */; settings = {ASSET_TAGS = (); }; };
+		3A75EE101BB822DF002B819D /* Airport Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75EE0F1BB822DF002B819D /* Airport Filled-100.png */; settings = {ASSET_TAGS = (); }; };
+		3A75EE121BB823FC002B819D /* Packaging Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75EE111BB823FC002B819D /* Packaging Filled-32.png */; settings = {ASSET_TAGS = (); }; };
+		3A75EE141BB82402002B819D /* Airport Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A75EE131BB82402002B819D /* Airport Filled-32.png */; settings = {ASSET_TAGS = (); }; };
 		3AAB0B101BB7196900DEC03C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B0F1BB7196900DEC03C /* main.m */; };
 		3AAB0B131BB7196900DEC03C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B121BB7196900DEC03C /* AppDelegate.m */; };
 		3AAB0B161BB7196900DEC03C /* FlightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B151BB7196900DEC03C /* FlightTableViewController.m */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A75EE0D1BB822D9002B819D /* Packaging Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Packaging Filled-100.png"; sourceTree = "<group>"; };
+		3A75EE0F1BB822DF002B819D /* Airport Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Airport Filled-100.png"; sourceTree = "<group>"; };
+		3A75EE111BB823FC002B819D /* Packaging Filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Packaging Filled-32.png"; sourceTree = "<group>"; };
+		3A75EE131BB82402002B819D /* Airport Filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Airport Filled-32.png"; sourceTree = "<group>"; };
 		3AAB0B0B1BB7196900DEC03C /* Musical Chairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musical Chairs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAB0B0F1BB7196900DEC03C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AAB0B111BB7196900DEC03C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +101,10 @@
 				3AAB0B301BB7723A00DEC03C /* ChooseCourierTableViewController.h */,
 				3AAB0B311BB7723A00DEC03C /* ChooseCourierTableViewController.m */,
 				3AAB0B1A1BB7196900DEC03C /* Main.storyboard */,
+				3A75EE0F1BB822DF002B819D /* Airport Filled-100.png */,
+				3A75EE0D1BB822D9002B819D /* Packaging Filled-100.png */,
+				3A75EE131BB82402002B819D /* Airport Filled-32.png */,
+				3A75EE111BB823FC002B819D /* Packaging Filled-32.png */,
 				3AAB0B1D1BB7196900DEC03C /* Assets.xcassets */,
 				3AAB0B1F1BB7196900DEC03C /* LaunchScreen.storyboard */,
 				3AAB0B221BB7196900DEC03C /* Info.plist */,
@@ -177,9 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AAB0B211BB7196900DEC03C /* LaunchScreen.storyboard in Resources */,
+				3A75EE0E1BB822D9002B819D /* Packaging Filled-100.png in Resources */,
+				3A75EE101BB822DF002B819D /* Airport Filled-100.png in Resources */,
+				3A75EE141BB82402002B819D /* Airport Filled-32.png in Resources */,
 				3AAB0B411BB7C2C500DEC03C /* Unirest in Resources */,
 				3AAB0B1E1BB7196900DEC03C /* Assets.xcassets in Resources */,
 				3AAB0B1C1BB7196900DEC03C /* Main.storyboard in Resources */,
+				3A75EE121BB823FC002B819D /* Packaging Filled-32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +375,7 @@
 				3AAB0B271BB7196900DEC03C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
