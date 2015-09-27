@@ -8,6 +8,7 @@
 
 #import "PackageTableViewController.h"
 #import "AppDelegate.h"
+#import "ChooseCourierTableViewController.h"
 
 @interface PackageTableViewController (){
     
@@ -28,6 +29,11 @@
     [self pullFromAzure];
 }
 
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self pullFromAzure];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -37,7 +43,6 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"table length: %lu", (unsigned long)[tableObjects count]);
     return [tableObjects count];
 }
 
@@ -53,15 +58,22 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self performSegueWithIdentifier:@"ChooseCourier" sender:indexPath];
+}
+
 #pragma mark - Add Package Methods
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"AddPackage"]) {
-        
         UINavigationController *navigationController = segue.destinationViewController;
         AddPackageTableViewController *addPackageTableViewController = [navigationController viewControllers][0];
         addPackageTableViewController.delegate = self;
+    } else if ([segue.identifier isEqualToString:@"ChooseCourier"]) {
+        NSIndexPath *indexPath = (NSIndexPath *)sender;
+        ChooseCourierTableViewController *destViewController = segue.destinationViewController;
+        destViewController.package = [tableObjects objectAtIndex:indexPath.row];
     }
 }
 
@@ -87,10 +99,6 @@
             NSLog(@"ERROR %@", error);
         } else {
             tableObjects = result.items;
-            for(NSDictionary *item in result.items){
-                NSLog(@"ITEM: %@", item);
-            }
-            NSLog(@"hit");
             [[self tableView] reloadData];
         }
     }];

@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		3AAB0B101BB7196900DEC03C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B0F1BB7196900DEC03C /* main.m */; };
 		3AAB0B131BB7196900DEC03C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B121BB7196900DEC03C /* AppDelegate.m */; };
-		3AAB0B161BB7196900DEC03C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B151BB7196900DEC03C /* FirstViewController.m */; };
+		3AAB0B161BB7196900DEC03C /* FlightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B151BB7196900DEC03C /* FlightTableViewController.m */; };
 		3AAB0B191BB7196900DEC03C /* PackageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B181BB7196900DEC03C /* PackageTableViewController.m */; };
 		3AAB0B1C1BB7196900DEC03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAB0B1A1BB7196900DEC03C /* Main.storyboard */; };
 		3AAB0B1E1BB7196900DEC03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAB0B1D1BB7196900DEC03C /* Assets.xcassets */; };
 		3AAB0B211BB7196900DEC03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAB0B1F1BB7196900DEC03C /* LaunchScreen.storyboard */; };
 		3AAB0B2B1BB71C3A00DEC03C /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAB0B2A1BB71C3A00DEC03C /* WindowsAzureMobileServices.framework */; settings = {ASSET_TAGS = (); }; };
 		3AAB0B2F1BB757D000DEC03C /* AddPackageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B2E1BB757D000DEC03C /* AddPackageTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3AAB0B321BB7723A00DEC03C /* ChooseCourierTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B311BB7723A00DEC03C /* ChooseCourierTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3AAB0B341BB7B24F00DEC03C /* WindowsAzureMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAB0B331BB7B24F00DEC03C /* WindowsAzureMessaging.framework */; settings = {ASSET_TAGS = (); }; };
+		3AAB0B411BB7C2C500DEC03C /* Unirest in Resources */ = {isa = PBXBuildFile; fileRef = 3AAB0B401BB7C2C500DEC03C /* Unirest */; settings = {ASSET_TAGS = (); }; };
+		3AAB0B441BB7FFB500DEC03C /* ChooseSeatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB0B431BB7FFB500DEC03C /* ChooseSeatTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +27,8 @@
 		3AAB0B0F1BB7196900DEC03C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AAB0B111BB7196900DEC03C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AAB0B121BB7196900DEC03C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3AAB0B141BB7196900DEC03C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		3AAB0B151BB7196900DEC03C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3AAB0B141BB7196900DEC03C /* FlightTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightTableViewController.h; sourceTree = "<group>"; };
+		3AAB0B151BB7196900DEC03C /* FlightTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTableViewController.m; sourceTree = "<group>"; };
 		3AAB0B171BB7196900DEC03C /* PackageTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackageTableViewController.h; sourceTree = "<group>"; };
 		3AAB0B181BB7196900DEC03C /* PackageTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackageTableViewController.m; sourceTree = "<group>"; };
 		3AAB0B1B1BB7196900DEC03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +38,12 @@
 		3AAB0B2A1BB71C3A00DEC03C /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
 		3AAB0B2D1BB757BD00DEC03C /* AddPackageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPackageTableViewController.h; sourceTree = "<group>"; };
 		3AAB0B2E1BB757D000DEC03C /* AddPackageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPackageTableViewController.m; sourceTree = "<group>"; };
+		3AAB0B301BB7723A00DEC03C /* ChooseCourierTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseCourierTableViewController.h; sourceTree = "<group>"; };
+		3AAB0B311BB7723A00DEC03C /* ChooseCourierTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseCourierTableViewController.m; sourceTree = "<group>"; };
+		3AAB0B331BB7B24F00DEC03C /* WindowsAzureMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMessaging.framework; sourceTree = "<group>"; };
+		3AAB0B401BB7C2C500DEC03C /* Unirest */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Unirest; sourceTree = "<group>"; };
+		3AAB0B421BB7FFB500DEC03C /* ChooseSeatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseSeatTableViewController.h; sourceTree = "<group>"; };
+		3AAB0B431BB7FFB500DEC03C /* ChooseSeatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseSeatTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AAB0B2B1BB71C3A00DEC03C /* WindowsAzureMobileServices.framework in Frameworks */,
+				3AAB0B341BB7B24F00DEC03C /* WindowsAzureMessaging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,14 +79,19 @@
 		3AAB0B0D1BB7196900DEC03C /* Musical Chairs */ = {
 			isa = PBXGroup;
 			children = (
+				3AAB0B401BB7C2C500DEC03C /* Unirest */,
 				3AAB0B111BB7196900DEC03C /* AppDelegate.h */,
 				3AAB0B121BB7196900DEC03C /* AppDelegate.m */,
-				3AAB0B141BB7196900DEC03C /* FirstViewController.h */,
-				3AAB0B151BB7196900DEC03C /* FirstViewController.m */,
+				3AAB0B141BB7196900DEC03C /* FlightTableViewController.h */,
+				3AAB0B151BB7196900DEC03C /* FlightTableViewController.m */,
+				3AAB0B421BB7FFB500DEC03C /* ChooseSeatTableViewController.h */,
+				3AAB0B431BB7FFB500DEC03C /* ChooseSeatTableViewController.m */,
 				3AAB0B171BB7196900DEC03C /* PackageTableViewController.h */,
 				3AAB0B181BB7196900DEC03C /* PackageTableViewController.m */,
 				3AAB0B2D1BB757BD00DEC03C /* AddPackageTableViewController.h */,
 				3AAB0B2E1BB757D000DEC03C /* AddPackageTableViewController.m */,
+				3AAB0B301BB7723A00DEC03C /* ChooseCourierTableViewController.h */,
+				3AAB0B311BB7723A00DEC03C /* ChooseCourierTableViewController.m */,
 				3AAB0B1A1BB7196900DEC03C /* Main.storyboard */,
 				3AAB0B1D1BB7196900DEC03C /* Assets.xcassets */,
 				3AAB0B1F1BB7196900DEC03C /* LaunchScreen.storyboard */,
@@ -96,6 +112,7 @@
 		3AAB0B2C1BB71C4100DEC03C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3AAB0B331BB7B24F00DEC03C /* WindowsAzureMessaging.framework */,
 				3AAB0B2A1BB71C3A00DEC03C /* WindowsAzureMobileServices.framework */,
 			);
 			name = Frameworks;
@@ -132,6 +149,7 @@
 				TargetAttributes = {
 					3AAB0B0A1BB7196900DEC03C = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = TL58VP6DD4;
 					};
 				};
 			};
@@ -159,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AAB0B211BB7196900DEC03C /* LaunchScreen.storyboard in Resources */,
+				3AAB0B411BB7C2C500DEC03C /* Unirest in Resources */,
 				3AAB0B1E1BB7196900DEC03C /* Assets.xcassets in Resources */,
 				3AAB0B1C1BB7196900DEC03C /* Main.storyboard in Resources */,
 			);
@@ -171,10 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAB0B321BB7723A00DEC03C /* ChooseCourierTableViewController.m in Sources */,
 				3AAB0B191BB7196900DEC03C /* PackageTableViewController.m in Sources */,
 				3AAB0B2F1BB757D000DEC03C /* AddPackageTableViewController.m in Sources */,
 				3AAB0B131BB7196900DEC03C /* AppDelegate.m in Sources */,
-				3AAB0B161BB7196900DEC03C /* FirstViewController.m in Sources */,
+				3AAB0B441BB7FFB500DEC03C /* ChooseSeatTableViewController.m in Sources */,
+				3AAB0B161BB7196900DEC03C /* FlightTableViewController.m in Sources */,
 				3AAB0B101BB7196900DEC03C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,14 +308,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Musical Chairs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HarshaCompany.Musical-Chairs";
+				PRODUCT_BUNDLE_IDENTIFIER = HarshaCompany.MusicalChairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7cfbd92-2edc-4e05-a3f9-fb88d518987f";
 			};
 			name = Debug;
 		};
@@ -302,14 +326,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Musical Chairs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HarshaCompany.Musical-Chairs";
+				PRODUCT_BUNDLE_IDENTIFIER = HarshaCompany.MusicalChairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7cfbd92-2edc-4e05-a3f9-fb88d518987f";
 			};
 			name = Release;
 		};
