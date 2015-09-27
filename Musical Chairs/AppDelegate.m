@@ -16,7 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.client = [MSClient clientWithApplicationURLString:@"https://musicalchairs.azure-mobile.net/"
+                                            applicationKey:@"iqBWSxPonPxehlmhoFqNJoazvbNDWP78"];
     return YES;
 }
 

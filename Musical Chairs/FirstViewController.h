@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WindowsAzureMobileServices/WindowsAzureMobileServices.h>
 
 @interface FirstViewController : UIViewController
 
+@property (strong, nonatomic) MSClient *client;
 
 @end
 
